@@ -1,0 +1,73 @@
+[
+  {
+    "data": "folder-3",
+    "id": 1,
+    "name": "Afo Charles",
+    "stack": "LAMP",
+    "experience": 2,
+    "age": 26
+  },
+  {
+    "id": 2,
+    "name": "Chinma Francis",
+    "stack": "PEAN",
+    "experience": 3,
+    "age": 23
+  },
+  {
+    "id": 3,
+    "name": "Oyekunmi Oyediji",
+    "stack": "MERN",
+    "experience": 1,
+    "age": 22
+  },
+  {
+    "id": 4,
+    "name": "Faremi Tunde",
+    "stack": "LAMP",
+    "experience": 2,
+    "age": 21
+  },
+  {
+    "id": 5,
+    "name": "Ahmad Bilesanmi",
+    "stack": "LAMP",
+    "experience": 4,
+    "age": 20
+  },
+  {
+    "id": 6,
+    "name": "Ciroma Kate",
+    "stack": "LAMP",
+    "experience": 5,
+    "age": 25
+  },
+  {
+    "id": 7,
+    "name": "Ogunyileka Feranmi",
+    "stack": "MERN",
+    "experience": 1,
+    "age": 19
+  },
+  {
+    "id": 8,
+    "name": "Edward Azuibike",
+    "stack": "MERN",
+    "experience": 3,
+    "age": 23
+  },
+  {
+    "id": 9,
+    "name": "Helen Nneka",
+    "stack": "MERN",
+    "experience": 2,
+    "age": 26
+  },
+  {
+    "id": 10,
+    "name": "Ifeoma Nora",
+    "stack": "LAMP",
+    "experience": 2,
+    "age": 15
+  }
+]
