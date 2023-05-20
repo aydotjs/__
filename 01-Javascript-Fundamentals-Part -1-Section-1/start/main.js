@@ -184,18 +184,25 @@ let mySecondJob = "Teacher";
 //
 
 //CONDITIONAL TERNARY OPERATOR
-const age = 21;
-console.log(
-  age >= 18 ? "Come have your license" : `wait till ${18 - age} years`
-);
-const nick = "as";
-const nick2 = "oo"
+// const age = 21;
+// console.log(
+//   age >= 18 ? "Come have your license" : `wait till ${18 - age} years`
+// );
+// const nick = "as";
+// const nick2 = "oo"
 
- let firstName = nick === "ao" ? "Ayobami Owoeye" : "Invalid";
-console.log(firstName);
+//  let firstName = nick === "ao" ? "Ayobami Owoeye" : "Invalid";
+// console.log(firstName);
 // if (nick === "ao") {
 //   firstName = "Ayobami Owoeye";
 // } else {
 //   firstName = "Invalid";
 // }
 // console.log(firstName);
+// let x = int(20);
+
+
+// x = "Balablu"
+// console.log(x);
+// const x = 5;
+
