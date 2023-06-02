@@ -326,12 +326,12 @@
 //   console.log(counter);
 //   counter++;
 // }
-let random = Math.round(Math.random() * 6);
-while(random !== 6){
-  console.log(`you rolled ${random}`)
- random = Math.round(Math.random() * 6);
+// let random = Math.round(Math.random() * 6);
+// while(random !== 6){
+//   console.log(`you rolled ${random}`)
+//  random = Math.round(Math.random() * 6);
 
-}
+// }
 
 
 /*
