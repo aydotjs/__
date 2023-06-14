@@ -24,7 +24,6 @@ header {
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
-
 main {
   height: 65vh;
   color: #eee;
@@ -32,7 +31,6 @@ main {
   align-items: center;
   justify-content: space-around;
 }
-
 .left {
   width: 52rem;
   display: flex;
@@ -55,7 +53,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .number {
   background: #eee;
   color: #333;
@@ -68,14 +65,12 @@ h1 {
   left: 50%;
   transform: translate(-50%, 50%);
 }
-
 .between {
   font-size: 1.4rem;
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
-
 .again {
   position: absolute;
   top: 2rem;
@@ -93,6 +88,7 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
+
 }
 
 .btn {
@@ -111,6 +107,7 @@ h1 {
 .message {
   margin-bottom: 8rem;
   height: 3rem;
+
 }
 .label-score {
   margin-bottom: 2rem;

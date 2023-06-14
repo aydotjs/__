@@ -78,11 +78,13 @@ let mySecondJob = "Teacher";
 //ASSIGNMENT OPERATOR
 // let firstName = 20;
 // let a = 5;
-// a += 20;
+// a++//a = a + 1//a=+1
+// a += 20; //a = a + 20
 // a *= 4;
 // a /= 5;
 // a -= 10;
 // console.log(a);
+
 
 // EQUALITY OPERATOR
 // let x = 20;
