@@ -350,12 +350,15 @@ HINT: Call calcTip in the loop and use the push method to add values to the tips
   4.2. To calculate the average, divide the sum you calculated before by the length of the array (because that's the number of elements)
   4.3. Call the function with the 'totals' array
 
-GOOD LUCK 😀
+/GOOD LUCK 😀
 */
-let arrayOfBills = [22, 295, 176, 440, 37, 105, 10, 1100, 86 , 52]
-let tips = [];
-let totals= [];
+// let arrayOfBills = [22, 295, 176, 440, 37, 105, 10, 1100, 86 , 52]
+// let tips = [];
+// let totals= [];
 
-for (let i = 0; i <= arrayOfBills.length; i++){
-fu
-}
+// for (let i = 0; i <= arrayOfBills.length; i++){
+// fu
+// }
+
+
+
