@@ -17,6 +17,31 @@ diceEl.classList.add('hidden');
 
 let currentScore = 0;
 let activePlayer = 0;
+btnRoll.addEventListener('click', function () {
+  // Generate a random dice number
+  const randomDiceNumber = Math.trunc(Math.random() * 6) + 1;
+  diceEl.classList.remove('hidden');
+  diceEl.src = `dice-${randomDiceNumber}.png`;
+  if (randomDiceNumber === 1) {
+    currentScore = 0
+    activePlayer = activePlayer === 0 ? 1 : 0;
+    //switch player
+  } else {
+    // add the dice number to the current score
+    currentScore += randomDiceNumber;
+    // display the score
+    document.getElementById(`current--${activePlayer}`).textContent =
+      currentScore;
+  }
+});
+/*
+// Resetting UI
+player1TotalScoreEl.textContent = 0;
+player2TotalScoreEl.textContent = 0;
+diceEl.classList.add('hidden');
+
+let currentScore = 0;
+
 const totalScore = [0, 0];
 let playing = true;
 const switchPlayer = function () {
@@ -36,7 +61,7 @@ btnRoll.addEventListener('click', function () {
     diceEl.classList.remove('hidden');
     diceEl.src = `dice-${randomDiceNumber}.png`;
     if (randomDiceNumber === 1) {
-      switchPlayer();
+      witchPlasyer();
       //switch player
     } else {
       // add the dice number to the current score
@@ -78,3 +103,4 @@ btnHold.addEventListener('click', function () {
 // SET PLAYING TO TRUE
 // REMOVE THE PLAYER WINNER CLASS FROM WHOEVER THE WINNER OF THE GAME IS
 // ADD THE PLAYER ACTIVE CLASS TO PLAYER 1
+*/
