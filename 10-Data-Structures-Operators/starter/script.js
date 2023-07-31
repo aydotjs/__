@@ -246,6 +246,8 @@ console.log(`Author: ${author}`);
 console.log(`Year: ${year}`);
 
 //=========================== Challenge 3 ends here=============================
+
+//=========================== Challenge 4 starts here=============================
 /*
 Write a function called mergeArrays that takes any number of arrays as arguments and returns a single array containing all the elements from each input array using the spread operator.
 */
@@ -271,3 +273,4 @@ Hints:
 1.Use the spread operator to concatenate the arrays.
 2.The spread operator can be used in function arguments to represent an indefinite number of arguments as an array.
 */
+//=========================== Challenge 4 ends here=============================
