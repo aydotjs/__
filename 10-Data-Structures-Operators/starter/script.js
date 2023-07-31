@@ -142,10 +142,132 @@ const restaurant = {
 // });
 
 // map
-const movements = [1000, 3000, -4000, 2000, -5000];
-const usdToNaira = 860
-const movementsInDollar = []
-for(const x of movements){
-  movementsInDollar.push(x/usdToNaira)
+
+const usdToNaira = 860;
+// const movementsInUSD = [];
+// for (const movement of movementsInNaira) {
+//   movementsInUSD.push(Math.round(movement / usdToNaira));
+// }
+// console.log(movementsInUSD)
+
+// map
+// map method loops over the array
+// const movementsInUSD = movementsInNaira.map(currentEl => currentEl / usdToNaira);
+// console.log(movementsInUSD);
+
+// filter method
+// const deposits = [];
+// for (const mvt of movementsInNaira){
+//   if (mvt > 0){
+//     deposits.push(mvt)
+//   }
+// }
+// console.log(deposits);
+// const deposits = movementsInNaira.filter(el => {
+//   return el > 0;
+// });
+// console.log(deposits);
+
+// reduce
+// const movementsInNaira = [1000, 3000, -4000, 2000, -5000];
+// method chaining
+// const sumOfMovementsInUSD = movementsInNaira
+//   .map(currentEl => currentEl / usdToNaira) //return array
+//   .reduce((acc, el) => {
+//     return acc + el;
+//   }, 0);
+// // 2nd example of method chaining
+// const sumOfDeposits = movementsInNaira
+//   .filter(el => el > 0)
+//   .reduce((acc, el) => acc + el, 0);
+// console.log(sumOfDeposits);
+// const sumOfMovementsInUSD = movementsInUSD.reduce((acc, el)=>{
+// return acc + el
+// }, 0)
+// console.log(sumOfMovementsInUSD);
+// const sumOfMovementsInNaira = movementsInNaira.reduce((acc, el) => acc + el, 0);
+// console.log(sumOfMovements);
+
+// ==================CLASS WORK STARTS HERE==================================
+
+/*
+1)
+You are given an array of numbers called numArray. Your task is to use the map method to create a new array called squaredArray, where each element is the square of the corresponding element in numArray. Implement the function squareArrayElements to achieve this.
+*/
+// const numArray = [1, 2, 3, 4, 5];
+// function squareArrayElements(numArray) {
+//   // Your code here
+  // return numArray.map(el => {
+  //   return el ** 2;
+  // });
+// }
+
+// Test case
+
+// const squaredArray = squareArrayElements(numArray);
+// console.log(squaredArray); // Output should be: [1, 4, 9, 16, 25]
+
+/*
+2.
+You are given an array of integers called numArray. Your task is to use the filter method to create a new array called evenNumbers, which only contains the even numbers from numArray. Implement the function filterEvenNumbers to achieve this. */
+function filterEvenNumbers(numArray) {
+  // Your code here
+  return numArray.filter(el => el % 2 === 0);
 }
-console.log(movementsInDollar);
+
+// Test case
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evenNumbers = filterEvenNumbers(numbers);
+console.log(evenNumbers); // Output should be: [2, 4, 6, 8, 10]
+//=========================== Challenge 3 starts here=============================
+/*
+3
+You are given an object representing a book. Your task is to use destructuring to extract specific properties from the object. Complete the function getBookInfo to achieve this.
+*/
+
+function getBookInfo(book) {
+  // Your code here
+}
+
+// // Test case
+// const bookInfo = {
+//   title: 'The Great Gatsby',
+//   author: 'F. Scott Fitzgerald',
+//   year: 1925,
+//   genre: 'Fiction',
+//   pages: 180,
+// };
+
+// Destructure the 'bookInfo' object using the 'getBookInfo' function
+// to extract 'title', 'author', and 'year' properties
+const { title, author, year } = getBookInfo(bookInfo);
+console.log(`Title: ${title}`);
+console.log(`Author: ${author}`);
+console.log(`Year: ${year}`);
+
+//=========================== Challenge 3 ends here=============================
+/*
+Write a function called mergeArrays that takes any number of arrays as arguments and returns a single array containing all the elements from each input array using the spread operator.
+*/
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5];
+const arr3 = [6, 7, 8];
+
+const mergedArray = mergeArrays(arr1, arr2, arr3);
+
+console.log(mergedArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8]
+/*
+Challenge Requirements:
+
+The mergeArrays function should take any number of arrays as arguments.
+It should return a single array containing all the elements from the input arrays.
+The original arrays should remain unchanged.
+
+*/
+
+/*
+Hints:
+
+1.Use the spread operator to concatenate the arrays.
+2.The spread operator can be used in function arguments to represent an indefinite number of arguments as an array.
+*/
